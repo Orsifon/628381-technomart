@@ -1,0 +1,243 @@
+    <!DOCTYPE html>
+    <html lang="ru">
+      <head>
+        <meta charset="utf-8">
+        <title>HTML Academy: Техномарт</title>
+        <base href="https://htmlacademy-htmlcss.github.io/628381-technomart/6/">
+</head>
+      <body>
+         <header class="main-header">
+           <div class="header-row header-row_top">
+             <a class="main-header-logo">
+             <img src="img\index-logo.svg" alt="логотип магазина Техномарт">
+           </a>
+             <ul class="search">
+               <li class="search">Поиск</li>
+               <li class="bokmarks">Закладки</li>
+               <li class="basket">Корзина 10</li>
+               <li><a class="button" href="#">Оформить заказ</a></li>
+              </ul>
+            </div>
+            <div class="header-row header-row_main">
+              <h2 class="visually-hidden">Магазин Техномарт</h2>
+                <div class="info">Интернет магазин<br>
+                   строительных материалов<br>
+                   и инструментов для ремонта</div>
+                <a href="tel:/+78125550555">+78125550555</a>
+                    <p>г. Санкт-Петербург, ул. Большая Конюшенная, д19/8</p>
+                  <a class="button" href="#">Равшан Джумшутович</a>
+                  <a  href="#">Мои заказы</a>
+                  <a  href="#">Личный кабинет</a>
+            </div>
+            <nav class="header-row header-row_nav">
+              <ul class="header-row header-row_nav">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#">Компания</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Спецпредложения</a></li>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+            </nav>
+        </header>
+
+        <main class="container">
+          <h1 class="visually-hidden">Магазин Техномарт</h1>
+          <ul class="breadcrumbs">
+              <li>
+              <a class="button" href="#">home</a></li>
+              <li>
+              <a  href="#.html">каталог</a></li>
+              <li>
+              <a  href="#">Инструмент</a></li>
+              <li>
+              <a  href="#">home</a></li>
+            </ul><div class="">
+          <h2>ПЕРФОРАТОРЫ</h2>
+        </div>
+          <div class="sorting">
+            <ul>
+              <li>Фильтр
+              <li>Сортировка
+              <li><a  href="#">по ценег</a></li>
+              <li><a  href="#">по типу</a></li>
+              <li><a  href="#">по функционалу</a></li>
+              <li><a class="button" href="#">up</a>
+              <li><a class="button" href="#">down</a>
+            </ul>
+          </div>
+          <form class="filter" action="https://echo.htmlacademy.ru" method="post">
+            <fieldset>
+              <legend>ЦЕНА:</legend>
+          <input type="range" name="filter-range" value="filter-range" min="0" max="30000">
+        </fieldset>
+        <fieldset>
+          <legend>ПРОИЗВОДИТЕЛИ:</legend>
+          <ul>
+            <li><input type="checkbox" name="filter-brand-BOSCH" value="filter-brand-BOSCH" id="filter-BOSCH" checked>
+              <label for="filter-brand-BOSCH">BOSCH</label></li>
+            <li><input type="checkbox" name="filter-brand-INTERSCOL" value="filter-brand-INTERSCOL" id="filter-INTERSKOL" >
+              <label for="filter-brand-INTERSKOL">ИНТЕРСКОЛ</label></li>
+            <li><input type="checkbox" name="filter-brand-MAKITA" value="filter-brand-MAKITA" id="filter-MAKITA" checked>
+              <label for="filter-brand-MAKITA">MAKITA</label></li>
+            <li><input type="checkbox" name="filter-brand-DEWALT" value="filter-brand-DEWALT" id="filter-DEWALT" >
+              <label for="filter-brand-DEWALT">DEWALT</label></li>
+            <li><input type="checkbox" name="filter-brand-HITACHI" value="filter-brand-HITACHI" id="filter-HITACHI" >
+               <label for="filter-brand-HITACHI">HITACHI</label></li>
+          </ul>
+        </fieldset>
+        <fieldset>
+            <legend>ПИТАНИЕ:</legend>
+            <ul>
+              <li><input type="radio" name="filter-power-suply" value="filter-rechargeable" id="filter-rechargeable">
+               <label for="filter-rechargeable">АККУМУЛЯТОРНЫЕ</label></li>
+              <li><input type="radio" name="filter-power-suply" value="filter-network" id="filter-network">
+               <label for="filter-network">СЕТЕВЫЕ</label></li>
+            </ul>
+        </fieldset>
+        <button type="submit">ПОКАЗАТЬ</button>
+        </form>
+
+          <section class="assortment">
+          <article class="assortment-in">
+            <a href="#"><img src="img/BFG3000.png" alt="BFG-3000"></a>
+            <a href="#">Перфоратор BOSCH<br>
+                        BFG-3000</a>
+            <span>22500</span>
+            <a class="button" href="15500.html">15500</a></li>
+          </article>
+          <article class="assortment-in">
+            <a href="#"><img src="img/BFG6000.png" alt="BFG-6000"></a>
+            <a href="">Перфоратор BOSCH<br>
+                    BFG-6000</a>
+            <span>30500</span>
+            <a class="button" href="25500.html">25500</a></li>
+          </article>
+          <article class="assortment-in">
+            <a class="button" href="#">купить</a></li>
+            <a class="button" href="#">закладки</a></li>
+            <a href="">Перфоратор BOSCH<br>
+                   BFG-2000</a>
+            <a class="button" href="12500.html">12500</a></li>
+          </article>
+          <article class="assortment-in">
+            <a href="#"><img src="img/BFG3000.png" alt="BFG3000"></a>
+            <a>Перфоратор BOSCH<br>
+                BFG-3000</a>
+            <span>22500</span>
+            <a class="button" href="25500.html">15500</a></li>
+          </article>
+          <article class="assortment-in">
+           <a href="#"><img src="img/BFG6000.png" alt="BFG6000"></a>
+           <a href="">Перфоратор BOSCH<br>
+              BFG-6000</a>
+            <span>30500</span>
+            <a class="button" href="25500.html">25500</a></li>
+          </article>
+          <article class="assortment-in">
+            <a href="#"><img src="img/BFG2000.png" alt="BFG2000"></a>
+            <a>Перфоратор BOSCH<br>
+               BFG-2000</a>
+             <a class="button" href="12500.html">12500</a></li>
+          </article>
+          <article class="assortment-in">
+            <a href="#"><img src="img/BFG3000.png" alt="BFG3000"></a>
+            <a href="">Перфоратор BOSCH<br>
+                      BFG-3000</a>
+            <span>22500</span>
+            <a class="button" href="25500.html">15500</a></li>
+          </article>
+          <article class="assortment-in">
+            <a href="#"><img src="img/BFG6000.png" alt="BFG6000"></a>
+            <a href="">Перфоратор BOSCH<br>
+                       BFG-6000</a>
+            <span>30500</span>
+            <a class="button" href="25500.html">25500</a></li>
+          </article>
+          <article class="assortment-in">
+            <a href="#"><img src="img/BFG2000.png" alt="BFG2000"></a>
+            <a href="">Перфоратор BOSCH<br>
+                     BFG-2000</a>
+            <a class="button" href="12500.html">12500</a></li>
+          </article>
+           </section>
+
+           <section class="pagination">
+             <ul>
+               <li><a class="button" href="#">1</a></li>
+               <li><a class="button" href="#">2</a></li>
+               <li><a class="button" href="#">3</a></li>
+               <li><a class="button" href="#">следующая</a></li>
+            </ul>
+           </section>
+
+          <section class="about">
+           <h2 class="about">Пара слов о перфораторах</h2>
+           <p> Перфоратор-универсальный строительный инструмент. Предназначен для сверления и долбления
+               отверстий в кирпиче, бетоне и камне. Существуют электрические и пневматические перфораторы.
+             Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка.в асортиментном
+              ряду есть выбор"трехрежимников": в одном устройстве будут совмещены отбойный молоток и ударная дрель</p>
+          </section>
+          </main>
+
+          <footer class="main-footer">
+            <div class="footer-row" >
+              <nav class="user-navigation">
+                <a class="main-header-logo">
+                <img src="img\index-logo.svg" alt="логотип магазина Техномарт">
+              </a>
+              <p>г.Санкт-Петербург, ул. Большая Конюшенная, д19/8</p>
+                    <a href="tel:/+7812555-05-55">+78125550555</a>
+            </div>
+            <div>
+                 <ul class="site-navigation">
+                   <li><a href="main.html">Главная</li>
+                   <li><a href="#">Компания</li>
+                   <li><a href="catalogue.html">Каталог</li>
+                   <li><a href="#">Новости</li>
+                   <li><a href="#">Спецпредложения</li>
+                   <li><a href="#">Доставка</li>
+                   <li><a href="#">Контакты</li>
+                 </ul>
+              </div>
+
+            <div class="footer-row">
+              <p class="company tehnomart">2010-2017 Компания Техномарт<br>
+                Все права защищены</p>
+                <div class="social networks">
+                  <ul>
+                    <li><a class="social-button" href="#">
+                      <img src="img/icon-vk.svg" alt="VK">VK</a></li>
+                    <li><a class="social-button" href="#">
+                      <img src="img/icon-fb.svg" alt="FB">FB</a></li>
+                    <li><a class="social-button" href="#">
+                      <img src="img/icon-insta.svg" alt="INSTAGRAM">INSTAGRAM</a></li>
+                  </ul>
+                  </div>
+                  <p class="feedback">
+                     <b>Обратная связь</b>
+                     <a class="button" href="mailto://mail@htmlacademy.ru">HTML-academy</a>
+                  </p>
+                   <p class="footer-copyright">
+                     <b>Разработано</b>
+                     <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">HTML-academy</a>
+                  </p>
+              </div>
+
+
+          </footer>
+          <section class="goodsinthecart">
+            <div class="goodsinthecart-up">
+              <p>Товар добавлен в корзину</p></div>
+              <div class="goodsinthebasket-down">
+                <ul>
+                <li><a href="#">Оформить заказ</li>
+                <li><a href="#">продолжить покупки</li>
+              </div>
+          </section>
+
+        <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>
+
+      </body>
+    </html>
