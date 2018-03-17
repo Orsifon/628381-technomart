@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+  background-color:  #ffffff;
+  background-image: ;
+ background-position: top center;
+background-repeat: no-repeat;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+font-family: "Cuprum", Arial, sans-serif;
+font-size: 30px;
+line-height: 30px;
+color: #eae8e6;
+text-transform:uppercase;
+}
+.header-row-header-row_top{
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #7b8390;
+}
+.header-row-header-row_main{
+  background-color: #f3f7f9;
+}
+.infoabout{
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+  color: #f3e5e8;
+
+  background-color: #f3f7f9;
+}
+.header-row-header-row_nav{
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #838e9d;
+}
+.header-row-header-row_top,
+.header-row-header-row_nav{
+   list-style: none;
+}
+.header-row-header-row_top a,
+.header-row-header-row_nav a{
+   color: #ffffff;
+}
+.header-row-header-row_top a:hover,
+.header-row-header-row_top a:focus,
+.header-row-header-row_nav a:hover,
+.header-row-header-row_nav a:focus {
+  background-color: #242424;
+}
+.promo,
+.promo2{
+  list-style: none;
+}
+.promo h3{
+  font-size: 24px;
+ line-height: 30px;
+ color: #ffffff;
+}
+.promo-materials{
+  background-color: #fdc459;
+}
+.promo-materials a{
+  padding: 5px
+  color: #ffffff
+  background-color:rgba(0,0,0,0,2)
+}
+.popular-products{
+background-color:#f9f8f6
+}
+.booklet{
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+  background-color:#ffffff
+}
+.popular-manufacturers{
+  background-color:#f9f8f6
+}
+.popular-manufacturers-in {
+  background-color:#ffffff
+}
+.popular-manufacturers-in {
+list-style: none;
+}
+.services{
+  font-family:
+  font-size:
+  line-height:
+  color:
+  background-color:
+}
+.info{
+    background-color:##ffffff
+}
+.main-fotter{
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+
+  background-color: #44526a;
+}
+.footer{
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #2e384c;
+}
+.main-fotter,
+.footer{
+  list-style: none;
+}
+.main-fotter a,
+.footer a{
+  color: #ffffff;
+}
+.main-fotter a:hover,,
+.main-fotter a:focus,
+.footer a:hover,
+.fotter a:focus,
